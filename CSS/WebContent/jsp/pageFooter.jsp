@@ -4,18 +4,18 @@
 		<div class="columns">
 			<div class="footer-left">
 				<div class="footer-logo">
-					<a href="index.html"> <img src="images/logo-footer.png"
-						alt="BUYUP集運,香港集運,台灣集貨,新加坡集運,马來西亚集運,淘寶集運,集運淘寶,天貓集運,集運,順豐全一集運" />
+					<a href="index.jsp"> <img src="images/logo-footer.png"
+						alt="KGOOS 集運,香港集運,台灣集貨,新加坡集運,马來西亚集運,淘寶集運,集運淘寶,天貓集運,集運,順豐全一集運" />
 					</a>
 				</div>
 				<div class="footer-contact">
 					<div class="tel">
 						<div class="title">
-							<span>諮詢旺旺</span>
+							<span>旺旺交谈</span>
 						</div>
 						<div class="content">
 							<a
-								href="http://www.taobao.com/webww/ww.php?ver=3&touid=%E5%A4%9C%E7%8C%AB%E8%8F%B2%E5%84%BF&siteid=cntaobao&status=1&charset=utf-8&scene=taobao_shop&scene=taobao_shop"
+								href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=tomkevin886&amp;siteid=cntaobao&amp;status=2&amp;charset=utf-8"
 								class="taobao" target="_blank"> <img
 								src="images/image-taobao.jpg" alt="淘宝" />
 							</a>
@@ -23,10 +23,10 @@
 					</div>
 					<div class="email">
 						<div class="title">
-							<span>服務電郵</span>
+							<span>联系邮件</span>
 						</div>
 						<div class="content">
-							<a href="mailto:iliketaobaohk@163.com">iliketaobaohk@163.com</a>
+							<a href="mailto:xxxx@sina.com">xxxx@sina.com</a>
 						</div>
 					</div>
 				</div>
@@ -64,15 +64,7 @@
 								title="貨物合併"><span>貨物合併</span></a></li>
 						</ul>
 					</li>
-					<!--<li class="level-1">
-								<div class="title">美國倉庫集運</div>
-								<ul class="menu">
-									<li class="level-2"><a href="us-to-hk-intro.html"><span>到香港</span></a></li>
-									<li class="level-2"><a href="javascript:void(0);" title="貨物認領"><span>貨物認領</span></a></li>
-									<li class="level-2"><a href="javascript:void(0);" title="貨物合併"><span>貨物合併</span></a></li>
-									<li class="level-2"><a href="us-to-hk-express.html" title="付款說明"><span>付款說明</span></a></li>
-								</ul>
-							</li>-->
+
 					<li class="level-1">
 						<div class="title">幫助中心</div>
 						<ul class="menu">
@@ -86,10 +78,10 @@
 						</ul>
 					</li>
 					<li class="level-1">
-						<div class="title">聯絡我們</div>
+						<div class="title">联系我们</div>
 						<ul class="menu">
-							<li class="level-2"><a href="contact_us.html" title="聯絡我們"><span>聯絡我們</span></a></li>
-							<li class="level-2"><a href="cn_news.aspx" title="新聞和通知"><span>新聞和通知</span></a></li>
+							<li class="level-2"><span style="color:white;">联系电话:xxxx-yyyy</span></li>
+							<li class="level-2"><span style="color:white;">地址:</span></li>
 						</ul>
 					</li>
 				</ul>
@@ -117,13 +109,13 @@
 	<div class="footer_bottom">
 		<div class="columns">
 			<div class="bottom-wrapper">
-				<div class="copyright">© 2016 BUYUP 版權所有</div>
+				<div class="copyright">© 2018 KGOOS 版权所有</div>
 				<div class="bottom-menu">
 					<ul>
-						<li><a href="contact_us.html" title="公司簡介"><span>公司簡介</span></a></li>
-						<li><a href="privacy-policy.html" title="隱私權保護聲明"><span>隱私權保護聲明</span></a></li>
-						<li><a href="terms-of-use.html" title="使用條款及免責聲明"><span>使用條款及免責聲明</span></a></li>
-						<li><a href="cn_bond.html" title="承運契約"><span>承運契約</span></a></li>
+						<li><a href="contact_us.html" title="公司简介"><span>公司简介</span></a></li>
+						<li><a href="privacy-policy.html" title="隐私保护声明"><span>隐私保护声明</span></a></li>
+						<li><a href="terms-of-use.html" title="使用条款及免责声明"><span>使用条款及免责声明</span></a></li>
+						<li><a href="cn_bond.html" title="承运合约"><span>承运合约</span></a></li>
 					</ul>
 				</div>
 			</div>

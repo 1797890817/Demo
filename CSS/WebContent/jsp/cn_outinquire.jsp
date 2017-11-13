@@ -49,7 +49,7 @@
 								    	<span class="triangle"></span>
 								    </li>
 								    <li>
-								    	<a href="jsp/cn_inquire.jsp" title="中國國內快件">中國國內快件</a>
+								    	<a href="jsp/Bcn_inquire.jsp" title="中國國內快件">中國國內快件</a>
 								    	<span class="triangle"></span>
 								    </li>
 							 	</ul>

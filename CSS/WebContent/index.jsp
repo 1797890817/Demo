@@ -6,9 +6,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible"
 	content="IE=edge,chrome=1;charset=UTF-8" />
-<title>BUYUP集運,香港集運,台灣集貨,淘寶集運,集運淘寶,天貓集運,集運,順豐全一集運</title>
+<title>KGOOS 集運,香港集運,台灣集貨,淘寶集運,集運淘寶,天貓集運,集運,順豐全一集運</title>
 <meta name="keywords" content="香港集運,台灣集貨,新加坡集運,马來西亚集運,淘寶集運,拼運" />
-<meta name="description" content="buyup專業從事各大商城的到香港,台灣,新加坡,马來西亚的集運集貨業務" />
+<meta name="description" content="KGOOS 專業從事各大商城的到香港,台灣,新加坡,马來西亚的集運集貨業務" />
 
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 <link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -156,87 +156,12 @@
 									</li>
 
 								</ul>
-								<!--<ul>
-									<li>
-										<div class="item-content">
-											<span class="num">1</span>
-											<div class="image">
-												<img src="images/warehouse/cn/image-process-1.png" alt="國內購物" />
-											</div>
-											<div class="text">國內購物</div>
-										</div>
-									</li>
-									<li>
-										<div class="item-content">
-											<span class="num">2</span>
-											<div class="image">
-												<img src="images/warehouse/cn/image-process-2.png" alt="寄至我們中國倉庫" />
-											</div>
-											<div class="text">寄至我們<br />中國倉庫</div>
-										</div>
-									</li>
-									<li>
-										<div class="item-content">
-											<span class="num">3</span>
-											<div class="image">
-												<img src="images/warehouse/cn/image-process-3.png" alt="到網站認領" />
-											</div>
-											<div class="text">到網站認領</div>
-										</div>
-									</li>
-									<li>
-										<div class="item-content">
-											<span class="num">4</span>
-											<div class="image">
-												<img src="images/warehouse/cn/image-process-4.png" alt="下訂單要求合併物品" />
-											</div>
-											<div class="text">下訂單要求<br />合併物品</div>
-										</div>
-									</li>
-									<li>
-										<div class="item-content">
-											<span class="num">5</span>
-											<div class="image">
-												<img src="images/warehouse/cn/image-process-5.png" alt="我們集合物品並寄出" />
-											</div>
-											<div class="text">我們集合物品<br />並寄出</div>
-										</div>
-									</li>
-									<li>
-										<div class="item-content">
-											<span class="num">6</span>
-											<div class="image">
-												<img src="images/warehouse/cn/image-process-6.png" alt="等待收貨" />
-											</div>
-											<div class="text">等待收貨</div>
-										</div>
-									</li>
-								</ul>-->
+								
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<!-- 				<div class="shopping_share">
-					<h3>購物&集運分享</h3>
-					<div class="share-wrapper" id="sharelist_show"></div>
-					<script type="text/javascript">
-						$("#sharelist_show").load(
-								"functions/sharelist_forindex.ashx",
-								function() {
-									$('#sharelist_show').owlCarousel({
-										loop : true,
-										margin : 20,
-										smartSpeed : 1000,
-										responsiveClass : true,
-										autoHeight : false,
-										autoplay : false,
-										items : 5,
-										dots : false
-									});
-								});
-					</script>
-				</div> -->
 			</div>
 		</div>
 		<jsp:include page="/jsp/pageFooter.jsp"></jsp:include> <!-- 包含页脚 -->

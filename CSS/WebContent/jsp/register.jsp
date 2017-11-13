@@ -32,7 +32,7 @@
 	<div class="logheader">
 		<div class="logobar">
 			<img src="<%=request.getContextPath() %>/images/images_user/login_logo.png"
-				alt="BUYUP集運,香港集運,台灣集貨,新加坡集運,马來西亚集運,淘寶集運,集運淘寶,天貓集運,集運,順豐全一集運" />
+				alt="KGOOS 集運,香港集運,台灣集貨,新加坡集運,马來西亚集運,淘寶集運,集運淘寶,天貓集運,集運,順豐全一集運" />
 		</div>
 		<div class="tofirstpgbar">
 			<img src="<%=request.getContextPath() %>/images/images_user/loginandreg/login_home.png" alt="回首頁" /> <a

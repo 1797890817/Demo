@@ -4,7 +4,7 @@
 	<div class="columns">
 		<div class="logo">
 			<a href="index.jsp"> <img src="images/logo.png"
-				alt="BUYUP集運,香港集運,台灣集貨,新加坡集運,马來西亚集運,淘寶集運,集運淘寶,天貓集運,集運,順豐全一集運" />
+				alt="KGOOS 集運,香港集運,台灣集貨,新加坡集運,马來西亚集運,淘寶集運,集運淘寶,天貓集運,集運,順豐全一集運" />
 			</a>
 		</div>
 		<div class="nav-sections">
@@ -13,7 +13,7 @@
 					<li class="active"><a href="index.jsp" title="首页"><span>首页</span></a></li>
 					<li onmousemove="showmenu_header(this)"
 						onmouseout="hidemenu_header(this)"><a
-						href="cn-warehouse.html"><span>國內倉集運</span></a>
+						href="cn-warehouse.html"><span>国内仓库集运</span></a>
 						<ul>
 							<li><a href="memapply_cntohk.aspx">會員中心</a></li>
 							<li class="thirdmenu" onmousemove="showmenu_header_third(this)"
@@ -59,16 +59,7 @@
 									<li><a href="cn-to-oversea-express.html">派送服務及費用</a></li>
 								</ul></li>
 						</ul></li>
-					<!--<li><a href="us-warehouse.html" title="美國倉集運"><span>美國倉集運</span></a></li>-->
-					<li><a href="bbs/sharelist.aspx?type=all" title="分享"><span>分享</span></a></li>
-					<li><a href="jsp/cn_inquire.jsp" title="物流跟蹤"><span>物流跟蹤</span></a></li>
-					<li onmousemove="showmenu_header(this)"
-						onmouseout="hidemenu_header(this)"><a
-						href="javascript:void(0);" title="最新資訊"><span>最新資訊</span></a>
-						<ul>
-							<li><a href="cn_news.aspx">最新消息</a></li>
-							<li><a href="points_bonus.html">推廣訊息</a></li>
-						</ul></li>
+					<li><a href="jsp/cn_inquire.jsp" title="物流跟踪"><span>物流跟踪</span></a></li>
 				</ul>
 			</div>
 		</div>
@@ -77,12 +68,6 @@
 			<ul class="menu">
 				<li><a href="jsp/cut_login.jsp" title="登录"><span>登录</span></a></li>
 				<li><a href="jsp/register.jsp" title="注册"><span>注册</span></a></li>
-				<li class="message"><a href="cut_login.aspx" target="_blank"><span
-						class="icon"></span><span class="num">0</span></a></li>
-				<li class="account"><a href="cut_login.aspx" target="_blank"><span
-						class="icon"></span><span class="num">0</span></a></li>
-				<li><a href="help_getintegral.html" title="幫助"><span>幫助</span></a></li>
-				<li><a href="feecalculation.html" title="試算器"><span>試算器</span></a></li>
 			</ul>
 		</div>
 
