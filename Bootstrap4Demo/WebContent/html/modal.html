@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="../bootstrap4/css/bootstrap.min.css">
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+<script src="../bootstrap4/js/bootstrap.min.js"></script>
+<title>Insert title here</title>
+</head>
+<body>
+
+	<div class="container">
+		<h2>模态框实例</h2>
+		<!-- 按钮：用于打开模态框 -->
+		<button type="button" class="btn btn-primary" data-toggle="modal"
+			data-target="#myModal">打开模态框</button>
+		<!-- 模态框 -->
+		<div class="modal fade" id="myModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<!-- 模态框头部 -->
+					<div class="modal-header">
+						<h4 class="modal-title">模态框头部</h4>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<!-- 模态框主体 -->
+					<div class="modal-body">模态框内容..</div>
+					<!-- 模态框底部 -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary"
+							data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<p>-------------------------------------------</p>
+	<div class="container">
+		<h2>模态框实例</h2>
+		<!-- 按钮：用于打开模态框 -->
+		<button type="button" class="btn btn-primary" data-toggle="modal"
+			data-target="#myModal2">打开模态框</button>
+		<!-- 模态框 -->
+		<div class="modal fade" id="myModal2">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<!-- 模态框头部 -->
+					<div class="modal-header">
+						<h4 class="modal-title">模态框头部</h4>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<!-- 模态框主体 -->
+					<div class="modal-body">模态框内容..</div>
+					<!-- 模态框底部 -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary"
+							data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<p>-------------------------------------------</p>
+	<div class="container">
+		<h2>模态框实例</h2>
+		<!-- 按钮：用于打开模态框 -->
+		<button type="button" class="btn btn-primary" data-toggle="modal"
+			data-target="#myModal3">打开模态框</button>
+		<!-- 模态框 -->
+		<div class="modal fade" id="myModal3">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<!-- 模态框头部 -->
+					<div class="modal-header">
+						<h4 class="modal-title">模态框头部</h4>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<!-- 模态框主体 -->
+					<div class="modal-body">模态框内容..</div>
+					<!-- 模态框底部 -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary"
+							data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<h3>提示框实例</h3>
+		<br> <a href="#" data-toggle="tooltip" title="我是提示内容!">鼠标移动到我这</a>
+	</div>
+	<!-- 	<script>
+		$(document).ready(function() {
+			$('[data-toggle="tooltip"]').tooltip();
+		});
+	</script> -->
+
+	<div class="container">
+		<h3>提示框实例</h3>
+		<br> <a href="#" data-toggle="tooltip" data-placement="top"
+			title="我是提示内容!">鼠标移动到我这</a> <a href="#" data-toggle="tooltip"
+			data-placement="bottom" title="我是提示内容!">鼠标移动到我这</a> <a href="#"
+			data-toggle="tooltip" data-placement="left" title="我是提示内容!">鼠标移动到我这</a>
+		<a href="#" data-toggle="tooltip" data-placement="right"
+			title="我是提示内容!">鼠标移动到我这</a>
+	</div>
+
+	<script>
+		$(document).ready(function() {
+			$('[data-toggle="tooltip"]').tooltip();
+		});
+	</script>
+
+
+	<div class="container">
+		<h3>弹出框实例</h3>
+		<a href="#" data-toggle="popover" title="弹出框标题" data-content="弹出框内容">多次点我</a>
+	</div>
+<!-- 	<script>
+		$(document).ready(function() {
+			$('[data-toggle="popover"]').popover();
+		});
+	</script> -->
+	
+	
+<div class="container">
+  <h3>弹出框实例</h3> <br><br><br><br><br><br>
+  <a href="#" title="Header" data-toggle="popover" data-placement="top" data-content="Content">点我</a>
+  <a href="#" title="Header" data-toggle="popover" data-placement="bottom" data-content="Content">点我</a>
+  <a href="#" title="Header" data-toggle="popover" data-placement="left" data-content="Content">点我</a>
+  <a href="#" title="Header" data-toggle="popover" data-placement="right" data-content="Content">点我</a>
+</div>
+<!-- <script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+</script>
+ -->
+<div class="container">
+  <h3>弹出框实例</h3> <br>
+  <a href="#" title="取消弹出框" data-toggle="popover" data-trigger="focus" data-content="点击文档的其他地方关闭我">点我</a>
+</div>
+<!-- <script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+</script>
+ -->
+
+<div class="container">
+  <h3>弹出框实例</h3> <br>
+  <a href="#" title="Header" data-toggle="popover" data-trigger="hover" data-content="一些内容">鼠标移动到我这</a>
+</div>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+</script>
+
+
+</body>
+</html>

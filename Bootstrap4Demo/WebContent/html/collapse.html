@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- width=device-width 表示宽度是设备屏幕的宽度。
+initial-scale=1 表示初始的缩放比例。
+shrink-to-fit=no 自动适应手机屏幕的宽度。 -->
+<link rel="stylesheet" href="../bootstrap4/css/bootstrap.min.css">
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+<script src="../bootstrap4/js/bootstrap.min.js"></script>
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="container">
+		<h2>简单的折叠</h2>
+		<p>点击按钮内容会再显示与隐藏之间切换。</p>
+		<button type="button" class="btn btn-primary" data-toggle="collapse"
+			data-target="#demo">简单的折叠</button>
+<!-- 		<div id="demo" class="collapse">Lorem ipsum dolor sit amet,
+			consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+			labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+			exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</div> -->
+	</div>
+	<div class="container">
+		<h2>简单的折叠</h2>
+		<a href="#demo" class="btn btn-primary" data-toggle="collapse">简单的折叠</a>
+<!-- 		<div id="demo" class="collapse">Lorem ipsum dolor sit amet,
+			consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+			labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+			exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</div> -->
+	</div>
+
+	<div class="container">
+		<h2>简单的折叠</h2>
+		<p>你可以添加 .show 类让内容默认显示:</p>
+		<button type="button" class="btn btn-primary" data-toggle="collapse"
+			data-target="#demo">简单的折叠</button>
+		<div id="demo" class="collapse show">Lorem ipsum dolor sit amet,
+			consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+			labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+			exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</div>
+	</div>
+
+	<div class="container">
+		<h2>手风琴实例</h2>
+		<p>
+			<strong>注意:</strong> 使用 data-parent
+			属性来确保所有的折叠元素在指定的父元素下，这样就能实现在一个折叠选项显示时其他选项就隐藏。
+		</p>
+		<div id="accordion">
+			<div class="card">
+				<div class="card-header">
+					<a class="card-link" data-toggle="collapse"
+						data-parent="#accordion" href="#collapseOne"> Collapsible
+						Group Item #1 </a>
+				</div>
+				<div id="collapseOne" class="collapse show">
+					<div class="card-block">Lorem ipsum dolor sit amet,
+						consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+						nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header">
+					<a class="collapsed card-link" data-toggle="collapse"
+						data-parent="#accordion" href="#collapseTwo"> Collapsible
+						Group Item #2 </a>
+				</div>
+				<div id="collapseTwo" class="collapse">
+					<div class="card-block">Lorem ipsum dolor sit amet,
+						consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+						nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header">
+					<a class="collapsed card-link" data-toggle="collapse"
+						data-parent="#accordion" href="#collapseThree"> Collapsible
+						Group Item #3 </a>
+				</div>
+				<div id="collapseThree" class="collapse">
+					<div class="card-block">Lorem ipsum dolor sit amet,
+						consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+						nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
