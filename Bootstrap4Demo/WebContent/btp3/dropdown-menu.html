@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bootstrap3/css/bootstrap.min.css">
+    <script src="../jquery/jquery-3.2.1.min.js"></script>
+    <script src="../bootstrap3/js/bootstrap.min.js"></script>
+    <title>下拉菜单的演示</title>
+</head>
+<body>
+<div class="dropdown">
+    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1"
+            data-toggle="dropdown">
+        主题
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">Java</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">数据挖掘</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">数据通信/网络</a>
+        </li>
+        <li role="presentation" class="divider"></li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">分离的链接</a>
+        </li>
+    </ul>
+</div>
+通过向 .dropdown-menu 添加 class .pull-right 来向右对齐下拉菜单。
+<div class="dropdown">
+    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1"
+            data-toggle="dropdown">主题
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu pull-right" role="menu"
+        aria-labelledby="dropdownMenu1">
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">Java</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">数据挖掘</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">数据通信/网络</a>
+        </li>
+        <li role="presentation" class="divider"></li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">分离的链接</a>
+        </li>
+    </ul>
+</div>
+您可以使用 class dropdown-header 向下拉菜单的标签区域添加标题。下面的实例演示了这点：
+<div class="dropdown">
+    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1"
+            data-toggle="dropdown">
+        主题
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation" class="dropdown-header">下拉菜单标题</li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">Java</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">数据挖掘</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">
+                数据通信/网络
+            </a>
+        </li>
+        <li role="presentation" class="divider"></li>
+        <li role="presentation" class="dropdown-header">下拉菜单标题</li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">分离的链接</a>
+        </li>
+    </ul>
+</div>
+.dropdown 菜单用于指定下拉菜单，下拉菜单都包裹在 .dropdown 里。
+.dropdown-menu 类用于实际下拉菜单的创建。
+<div class="container">
+    <h2>下拉菜单</h2>
+    <p>.dropdown 菜单用于指定下拉菜单，下拉菜单都包裹在 .dropdown 里。</p>
+    <p>.dropdown-menu 类用于实际下拉菜单的创建。</p>
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">教程
+            <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">关于我们</a></li>
+        </ul>
+    </div>
+</div>
+在 .dropdown-menu 中添加 .dropdown-menu-right 类来设置下拉菜单右对齐：
+<div class="container">
+    <h2>下拉菜单</h2>
+    <p>在 .dropdown-menu 中添加 .dropdown-menu-right 类来设置下拉菜单右对齐：</p>
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">教程
+            <span class="caret"></span></button>
+        <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="menu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">关于我们</a></li>
+        </ul>
+    </div>
+</div>
+.dropdown-header 类用于在下拉菜单中添加标题：
+<div class="container">
+    <h2>下拉菜单</h2>
+    <p>.dropdown-header 类用于在下拉菜单中添加标题：</p>
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">教程
+            <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+            <li role="presentation" class="dropdown-header">下拉菜单标题 1</li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation" class="dropdown-header">下拉菜单标题 2</li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">关于我们</a></li>
+        </ul>
+    </div>
+</div>
+.dropup 类用于指定一个向上的下拉菜单。
+.dropdown-menu 类用于创建下拉菜单。
+<div class="container">
+    <h2>向上下拉菜单</h2>
+    <p>.dropup 类用于指定一个向上的下拉菜单。</p>
+    <p>.dropdown-menu 类用于创建下拉菜单。</p>
+    <div class="dropup">
+        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">教程
+            <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">关于我们</a></li>
+        </ul>
+    </div>
+</div>
+.disabled 类用于设置下拉菜单的禁用项：
+<div class="container">
+    <h2>下拉菜单</h2>
+    <p>.disabled 类用于设置下拉菜单的禁用项：</p>
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">教程
+            <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+            <li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">关于我们</a></li>
+        </ul>
+    </div>
+</div>
+.divider 类用于设置下拉菜单的分割线：
+<div class="container">
+    <h2>下拉菜单</h2>
+    <p>.divider 类用于设置下拉菜单的分割线：</p>
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">教程
+            <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">菜鸟教程</a></li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">关于我们</a></li>
+        </ul>
+    </div>
+</div>
+
+
+</body>
+</html>
