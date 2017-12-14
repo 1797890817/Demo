@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bootstrap3/css/bootstrap.min.css">
+    <script src="../jquery/jquery-3.2.1.min.js"></script>
+    <script src="../bootstrap3/js/bootstrap.min.js"></script>
+    <title>分页演示</title>
+</head>
+<body>
+<p>默认分页:</p>
+<ul class="pagination">
+    <li><a href="#">&laquo;</a></li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">&raquo;</a></li>
+</ul>
+<p>分页状态:</p>
+<ul class="pagination">
+    <li><a href="#">&laquo;</a></li>
+    <li class="active"><a href="#">1</a></li>
+    <li class="disabled"><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">&raquo;</a></li>
+</ul>
+<p>分页大小:</p>
+<ul class="pagination pagination-lg">
+    <li><a href="#">&laquo;</a></li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">&raquo;</a></li>
+</ul>
+<br>
+<ul class="pagination">
+    <li><a href="#">&laquo;</a></li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">&raquo;</a></li>
+</ul>
+<br>
+<ul class="pagination pagination-sm">
+    <li><a href="#">&laquo;</a></li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">&raquo;</a></li>
+</ul>
+<p>默认的翻页</p>
+<p>下面的实例演示了上表中所讨论的 class .pager 的用法：</p>
+<ul class="pager">
+    <li><a href="#">Previous</a></li>
+    <li><a href="#">Next</a></li>
+</ul>
+<p>对齐的链接
+    下面的实例演示了上表中所讨论的 class .previous、.next 的用法：</p>
+<ul class="pager">
+    <li class="previous"><a href="#">&larr; Older</a></li>
+    <li class="next"><a href="#">Newer &rarr;</a></li>
+</ul>
+<p>翻页的状态
+    下面的实例演示了上表中所讨论的 class .disabled 的用法：</p>
+<ul class="pager">
+    <li class="previous disabled"><a href="#">&larr; Older</a></li>
+    <li class="next"><a href="#">Newer &rarr;</a></li>
+</ul>
+<div class="container">
+    <h2>分页</h2>
+    <p>.pager 类提供了一个简单的分页样式:</p>
+    <ul class="pager">
+        <li><a href="#">上一页</a></li>
+        <li><a href="#">下一页</a></li>
+    </ul>
+</div>
+<div class="container">
+    <h2>分页</h2>
+    <p>.previous 和 .next 类设置左右对齐:</p>
+    <ul class="pager">
+        <li class="previous"><a href="#">上一页</a></li>
+        <li class="next"><a href="#">下一页</a></li>
+    </ul>
+</div>
+<div class="container">
+    <h2>分页</h2>
+    <p>.disabled 设置分页链接不可以:</p>
+    <ul class="pager">
+        <li class="previous disabled"><a href="#">上一页</a></li>
+        <li class="next"><a href="#">下一页</a></li>
+    </ul>
+</div>
+<div class="container">
+    <h2>分页</h2>
+    <p> .pagination 类提供多个分页导航链接:</p>
+    <ul class="pagination">
+        <li><a href="#">«</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">6</a></li>
+        <li><a href="#">»</a></li>
+    </ul>
+</div>
+<div class="container">
+    <h2>分页</h2>
+    <p>大尺寸的分页 .pagination 类:</p>
+    <ul class="pagination pagination-lg">
+        <li><a href="#">«</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">»</a></li>
+    </ul>
+
+    <p>标准尺寸的分页 .pagination 类:</p>
+    <ul class="pagination">
+        <li><a href="#">«</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">»</a></li>
+    </ul>
+
+    <p>小尺寸的分页 .pagination 类:</p>
+    <ul class="pagination pagination-sm">
+        <li><a href="#">«</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">»</a></li>
+    </ul>
+</div>
+<div class="container">
+    <h2>分页</h2>
+    <p>.disabled 类指定不可访问的分页链接， .active 类设置当前访问的页面： </p>
+    <ul class="pagination">
+        <li><a href="#">«</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li class="disabled"><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li class="active"><a href="#">6</a></li>
+        <li><a href="#">»</a></li>
+    </ul>
+</div>
+
+</body>
+</html>
