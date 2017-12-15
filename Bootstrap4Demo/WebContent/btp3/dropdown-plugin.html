@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bootstrap3/css/bootstrap.min.css">
+    <script src="../jquery/jquery-3.2.1.min.js"></script>
+    <script src="../bootstrap3/js/bootstrap.min.js"></script>
+    <title>下拉插件</title>
+</head>
+<body>
+<p>可以切换下拉菜单（Dropdown）插件的隐藏内容：
+    通过 data 属性：向链接或按钮添加 data-toggle="dropdown" 来切换下拉菜单，</p>
+<p>如果您需要保持链接完整（在浏览器不启用 JavaScript 时有用），请使用 data-target 属性代替 href="#"：</p>
+<p>通过 JavaScript：通过 JavaScript 调用下拉菜单切换，请使用下面的方法：
+    $('.dropdown-toggle').dropdown()</p>
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">菜鸟教程</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">iOS</a></li>
+                <li><a href="#">SVN</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Java
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">jmeter</a></li>
+                        <li><a href="#">EJB</a></li>
+                        <li><a href="#">Jasper Report</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">分离的链接</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">另一个分离的链接</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<p>带有下拉菜单的标签页</p>
+<ul class="nav nav-tabs">
+    <li class="active">
+        <a href="#">Home</a></li>
+    <li>
+        <a href="#">SVN</a></li>
+    <li>
+        <a href="#">iOS</a></li>
+    <li>
+        <a href="#">VB.Net</a></li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Java
+            <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li>
+                <a href="#">Swing</a></li>
+            <li>
+                <a href="#">jMeter</a></li>
+            <li>
+                <a href="#">EJB</a></li>
+            <li class="divider"></li>
+            <li>
+                <a href="#">分离的链接</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">PHP</a></li>
+</ul>
+
+<p>下拉菜单（Dropdown）插件方法的用法:</p>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">W3Cschool</a>
+        </div>
+        <div id="myexample">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#">iOS</a>
+                </li>
+                <li>
+                    <a href="#">SVN</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Java
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a id="action-1" href="#">jmeter</a>
+                        </li>
+                        <li>
+                            <a href="#">EJB</a>
+                        </li>
+                        <li>
+                            <a href="#">Jasper Report</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">分离的链接</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">另一个分离的链接</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</div>
+<script>
+    $(function () {
+        $(".dropdown-toggle").dropdown('toggle');
+    });
+</script>
+
+
+</body>
+</html>
