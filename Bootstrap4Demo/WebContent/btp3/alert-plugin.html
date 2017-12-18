@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bootstrap3/css/bootstrap.min.css">
+    <script src="../jquery/jquery-3.2.1.min.js"></script>
+    <script src="../bootstrap3/js/bootstrap.min.js"></script>
+    <title>警告框插件</title>
+</head>
+<body>
+<div class="alert alert-warning">
+    <a href="#" class="close" data-dismiss="alert">
+        &times;
+    </a>
+    <strong>警告！</strong>您的网络连接有问题。
+</div>
+<p>实例演示了 .alert() 方法的用法</p>
+<h3>警告框（Alert）插件 alert() 方法</h3>
+<div id="myAlert" class="alert alert-success">
+    <a href="#" class="close" data-dismiss="alert">&times;</a>
+    <strong>成功！</strong>结果是成功的。
+</div>
+<div id="myAlert" class="alert alert-warning">
+    <a href="#" class="close" data-dismiss="alert">&times;</a>
+    <strong>警告！</strong>您的网络连接有问题。
+</div>
+
+<script>
+    $(function(){
+        $(".close").click(function(){
+            $("#myAlert").alert();
+        });
+    });
+</script>
+<p>实例演示了 .alert('close') 方法的用法</p>
+<h3>警告框（Alert）插件 alert('close') 方法</h3>
+<div id="myAlert2" class="alert alert-success">
+    <a href="#" class="close" data-dismiss="alert">&times;</a>
+    <strong>成功！</strong>结果是成功的。
+</div>
+<div id="myAlert2" class="alert alert-warning">
+    <a href="#" class="close" data-dismiss="alert">&times;</a>
+    <strong>警告！</strong>您的网络连接有问题。
+</div>
+
+<script>
+    $(function(){
+        $(".close").click(function(){
+            $("#myAlert2").alert('close');
+        });
+    });
+</script>
+
+<p>实例演示了警告框（Alert）插件的事件,此处建议直接看代码</p>
+<div id="myAlert3" class="alert alert-success">
+    <a href="#" class="close" data-dismiss="alert">&times;</a>
+    <strong>成功！</strong>结果是成功的。
+</div>
+
+<script>
+    $(function(){
+        $("#myAlert3").bind('closed.bs.alert', function () {
+            alert("警告消息框被关闭。");
+        });
+    });
+</script>
+
+</body>
+</html>
